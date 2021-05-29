@@ -1,0 +1,6 @@
+<div class="movie-card">
+  <h4 class="movie-title">{{title}}</h4>
+  <img class="movie-img" [src]="imgSrc" [routerLink]="['/movies',this.slug]">
+  <h5 class="movie-rating">Imdb Rating <fa-icon [ngStyle]="{'color': '#ffc947'}" [icon]="faStar"></fa-icon>
+     {{movieRating}}</h5>
+</div>

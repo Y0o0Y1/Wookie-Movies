@@ -1,0 +1,10 @@
+<main>
+  <router-outlet>
+    <router-outlet>
+      <form (submit)="formHandler($event)" id="search-input">
+        <input (change)="handleChange($event)" type="" placeholder="Search for a movie">
+        <button type="submit"> Search </button>
+      </form>
+    </router-outlet>
+  </router-outlet>
+</main>

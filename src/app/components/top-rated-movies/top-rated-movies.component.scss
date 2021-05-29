@@ -1,0 +1,21 @@
+.top-rated-movies{
+    margin-top: 1rem;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+.flex-container{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: row
+;
+}
+
+.top-rated-movies h2{
+    justify-self: center;
+    align-self: center;
+}

@@ -1,0 +1,18 @@
+<section id="movie">
+  <div class="movie-description">
+    <img class="movie-description-img" src={{movie.poster}}>
+    <div>
+      <h1 class="movie-description-title">{{movie.title}}</h1>
+      <h3>
+        Rating <fa-icon [ngStyle]="{'color': '#ffc947'}" [icon]="faStar"></fa-icon>{{movie.imdb_rating}}
+      </h3>
+      <p class="movie-overview">{{movie.overview}}</p>
+      <div>
+        <h4>
+          Casting
+        </h4>
+        <p *ngFor="let cast of movie.cast">{{cast}}</p>
+      </div>
+    </div>
+  </div>
+</section>

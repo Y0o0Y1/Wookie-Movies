@@ -1,0 +1,16 @@
+<div *ngFor="let genre of genresToRender; index as i" class="movies">
+  <h1>{{genre}}</h1>
+  <div class="genre">
+    <carousel
+    [height]=500
+    [cellsToShow]=3
+    [loop]=true
+    [transitionTimingFunction]="'ease-in-out'"
+    [transitionDuration]=1300
+    >
+      <div *ngFor="let movie of moviesToRender[i]" class="carousel-cell">
+        <img routerLink="/movies/{{movie.slug}}" src={{movie.poster}}>
+      </div>
+    </carousel>
+  </div>
+</div>

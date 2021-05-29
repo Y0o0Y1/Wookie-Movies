@@ -1,0 +1,16 @@
+.movie-description{
+  margin:1.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1.5fr));
+
+}
+.movie-description-title{
+  align-self: start;
+}
+.movie-description-img{
+  justify-self: center;
+  aspect-ratio: 2 / 3
+}
+#movie{
+  height:1000px;
+}

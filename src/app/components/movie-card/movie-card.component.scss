@@ -1,0 +1,29 @@
+.movie-card {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 1.5rem;
+  gap: 0.5rem;
+}
+
+.movie-card:hover {
+  cursor: pointer;
+}
+
+.movie-img {
+  height: 100%;
+  width: 100%;
+
+}
+
+.movie-title {
+  align-self: start;
+  justify-self: start;
+}
+
+.movie-rating {
+  align-self: end;
+  justify-self: end;
+}
